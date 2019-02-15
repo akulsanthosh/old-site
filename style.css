@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .hero {
@@ -50,7 +51,8 @@ a {
   animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
 }
 
-.hero a {
+
+.normal {
   font-size: 17px;
   font-weight: 600;
   color: white;
@@ -68,7 +70,9 @@ a {
   transition: 0.8s cubic-bezier(0.2,0.8,0.2,1);
 }
 
-.hero a:hover {
+
+
+.normal:hover {
   background: white;
   color: black;
 }
